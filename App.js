@@ -1,5 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { Platform, SafeAreaView, StyleSheet, View } from 'react-native';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
+
 import PanGesture from './components/examples-with-rngh-and-rnr/PanGesture';
 import TapGesture from './components/examples-with-rngh-and-rnr/TapGesture';
 import LongPressGesture from './components/examples-with-rngh-and-rnr/LongPressGesture';
