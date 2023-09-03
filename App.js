@@ -10,6 +10,7 @@ import ForceTouchGesture from './components/examples-with-rngh-and-rnr/ForceTouc
 import FlingGesture from './components/examples-with-rngh-and-rnr/FlingGesture';
 import ManualGesture from './components/examples-with-rngh-and-rnr/ManualGesture';
 import NativeGesture from './components/examples-with-rngh-and-rnr/NativeGesture';
+import PinchGestureExample from './components/examples-with-rngh-and-rnr/PinchGesture';
 
 export default function App() {
   return (
@@ -17,12 +18,13 @@ export default function App() {
       <GestureHandlerRootView style={{ flex: 1 }}>
         <View style={styles.container}>
           <StatusBar style='auto' />
-          <PanGesture />
+          {/* <PanGesture /> */}
           {/* <TapGesture /> */}
           {/* <LongPressGesture /> */}
           {/* <RotationGesture /> */}
-          {/* <ForceTouchGesture /> */}
+          <PinchGestureExample />
           {/* <FlingGesture /> */}
+          {/* <ForceTouchGesture /> */}
           {/* <ManualGesture /> */}
           {/* <NativeGesture /> */}
         </View>
