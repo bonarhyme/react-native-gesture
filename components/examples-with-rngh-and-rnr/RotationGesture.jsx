@@ -24,7 +24,7 @@ const RotationGesture = () => {
       lastRotation.value = rotationPoint.value;
     });
 
-  const aniate = useAnimatedStyle(() => ({
+  const animatedStyle = useAnimatedStyle(() => ({
     transform: [{ rotateZ: `${(rotationPoint.value / Math.PI) * 180}deg` }],
   }));
 
